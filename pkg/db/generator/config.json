@@ -1,0 +1,12 @@
+{
+    "db_host" : "localhost",
+    "db_port" : "3310",
+    "db_user" : "root",
+    "db_password" : "password",
+    "db_name" : "test",
+    "pkg_name" : "models",
+    "tag_label" : "xorm",
+    "xorm" : true,
+    "only_base_tables" : true,
+    "ignore_nullables" : true
+}
