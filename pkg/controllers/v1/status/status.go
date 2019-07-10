@@ -1,4 +1,4 @@
-package home
+package status
 
 import (
 	"github.com/go-xorm/xorm"
@@ -6,7 +6,7 @@ import (
 
 var db *xorm.Engine
 
-// Init - init home contoller
+// Init - init status controller
 func Init(DB *xorm.Engine) {
 	db = DB
 }
